@@ -1,0 +1,25 @@
+$clr-Primary: #f3ddda; 
+
+:root {
+    --ff-primary: "Montserrat", sans-serif;
+    --lh-primary: 1.6rem;
+    --fc-primary: #333;
+  
+    --fw-regular: 400;
+    --fw-semi-bold: 400;
+    --fw-bold: 700;
+  
+    --fs-body: 1rem;
+    --fs-primary-heading: 2.5rem;
+    --fs-sub-heading: 1.15rem;
+
+  }
+  
+  @media (min-width: 50em) {
+    :root {
+      /* --fs-body: var(--fs-500);
+      --fs-primary-heading: var(--fs-900);
+      --fs-secondary-heading: var(--fs-800);
+      --fs-nav: var(--fs-300); */
+    }
+  }

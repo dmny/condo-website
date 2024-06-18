@@ -17,3 +17,7 @@ function closeMenu() {
     navMenu.classList.remove("active");
 }
 
+const navigationHeight = document.querySelector('.header').getBoundingClientRect().height;
+console.log(navigationHeight);
+document.documentElement.style.setProperty('--scroll-padding', navigationHeight + "px");
+

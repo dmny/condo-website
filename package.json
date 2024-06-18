@@ -9,10 +9,10 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "sass": "^1.77.4",
     "vite": "^5.2.0"
   },
   "dependencies": {
-    "@glidejs/glide": "^3.6.1",
-    "sass": "^1.77.2"
+    "@glidejs/glide": "^3.6.1"
   }
 }
