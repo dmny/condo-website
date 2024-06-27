@@ -23,13 +23,13 @@
 .about-image { 
     min-height: 40vh;
     min-height: calc(50svh - calc(var(--scroll-padding) / 2));
-    background-image: url('../public/images/entrance_01.jpg');
+    background-image: url('../public/images/gallery/entrance-01.jpg');
     background-repeat: no-repeat;
     background-position-x: 15%;
     background-size: cover;
 }
     
-@media (min-width: 95em) {
+@media (min-width: 75em) {
     .about {
         margin-top: 6rem;
         padding: 0;

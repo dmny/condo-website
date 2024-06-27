@@ -61,15 +61,26 @@ html {
     margin-top: 2rem;
     padding: 0.8em 1em;
     border: 2px solid transparent;
-    border-radius: 0;
     font-weight: 400;
     white-space: nowrap;
+    cursor: pointer;
   }
   
-  .btn.btn-white {
+  .btn-white {
     background: #ffffff;
     border-color: #ffffff;
     color: #232323;
+  }
+
+  .btn-white:hover,
+  .btn-white:focus {
+    background: #fcebeb;
+    border-color: #ffffff;
+    color: #232323;
+  }
+
+  .btn-white:active {
+    background-color: #fedada;;
   }
   
   .container {
